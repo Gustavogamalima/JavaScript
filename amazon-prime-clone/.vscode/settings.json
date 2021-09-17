@@ -1,0 +1,6 @@
+{
+  "workbench.panel.defaultLocation": "right",
+  "workbench.panel.opensMaximized": "never",
+  "comments.openPanel": "neverOpen",
+  "git.showCommitInput": false
+}

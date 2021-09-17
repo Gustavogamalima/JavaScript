@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhando no Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Desenhando no Canvas</h1>
+
+    <canvas id="tela" width="800" height="400"></canvas>
+
+    <div class="colorArea">
+        <div data-color="black" style="background-color: black" class="color active"></div>
+        <div data-color="blue" style="background-color: blue" class="color"></div>
+        <div data-color="red" style="background-color: red" class="color"></div>
+        <div data-color="green" style="background-color: green" class="color"></div>
+        <div data-color="yellow" style="background-color: yellow" class="color"></div>
+        <div data-color="gray" style="background-color: gray" class="color"></div>
+    </div>
+
+    <div class="controls">
+        <button class="clear">Limpar Quadro</button>
+
+        <button data-color="white" class="borracha color">Borracha</button>
+
+        <input type="range" list="tickmarks" id="nivel">
+
+        <datalist id="tickmarks">
+        <option value="1" label="0%">
+        <option value="10">
+        <option value="20">
+        <option value="30">
+        <option value="40">
+        <option value="50" label="50%">
+        <option value="60">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="500" label="100%">
+        </datalist>
+    </div>
+
+    <footer>Criado por Gustavo</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
